@@ -23,6 +23,16 @@ Sawtooth and triangular wave generators play a crucial role in electronic system
 - **Triangular Wave Generator**  
 - **Sawtooth Wave Generator**  
 - **eSim Schematic Designs**  
+## 📐 Circuit Diagrams  
+### Triangular Wave Generator  
+![Triangular Wave Generator](images/triangular_wave.png)
+
+### Sawtooth Wave Generator  
+![Sawtooth Wave Generator](images/sawtooth_wave.png)
+
+## 📊 Simulation Results  
+### Output Waveforms  
+![Waveform Output](images/output_waveform.png)
 
 ## 📊 Simulation & Results  
 - Input and output waveforms for **both generators**.  
