@@ -1,0 +1,28 @@
+* c:\users\pc\esim-workspace\sawtooth\sawtooth.cir
+
+.include lm_741.sub
+.include D.lib
+x1 ? gnd net-_r1-pad2_ net-_x1-pad4_ ? out1 net-_x1-pad7_ ? lm_741
+x2 ? net-_c1-pad2_ gnd net-_x1-pad4_ ? out2 net-_x1-pad7_ ? lm_741
+r3  net-_d2-pad2_ net-_c1-pad2_ 5k
+r2  net-_r1-pad2_ out2 40k
+r1  out1 net-_r1-pad2_ 100k
+r4  net-_d1-pad1_ net-_c1-pad2_ 40k
+v2  gnd net-_x1-pad4_ 15v
+v1  net-_x1-pad7_ gnd 15v
+d2 out1 net-_d2-pad2_ 1N4148
+d1 net-_d1-pad1_ out1 1N4148
+c1  out2 net-_c1-pad2_ 500nf
+* u2  out2 plot_v1
+* u1  out1 plot_v1
+.tran 0.01e-03 30e-03 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(out2)
+plot v(out1)
+.endc
+.end
