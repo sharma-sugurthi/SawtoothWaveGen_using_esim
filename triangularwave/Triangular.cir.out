@@ -1,0 +1,24 @@
+* c:\users\pc\esim-workspace\triangular\triangular.cir
+
+.include lm_741.sub
+x1 ? gnd net-_r1-pad1_ net-_x1-pad4_ ? out1 net-_x1-pad7_ ? lm_741
+x2 ? net-_c1-pad2_ gnd net-_x1-pad4_ ? out2 net-_x1-pad7_ ? lm_741
+v1  gnd net-_x1-pad4_ 14v
+v2  net-_x1-pad7_ gnd 14v
+r2  net-_r1-pad1_ out1 1k
+r3  out1 net-_c1-pad2_ 10k
+r1  net-_r1-pad1_ out2 180
+* u2  out2 plot_v1
+* u1  out1 plot_v1
+c1  out2 net-_c1-pad2_ 47n
+.tran 10e-06 10e-03 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(out2)
+plot v(out1)
+.endc
+.end
