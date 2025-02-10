@@ -25,7 +25,7 @@ Sawtooth and triangular wave generators play a crucial role in electronic system
 ![Triangular Wave Output](https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim/blob/main/Simulations/triangular.png?raw=true)  
 
 ### Sawtooth Wave Generator 
-![Sawtooth Wave Output](https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim/blob/main/Simulations/sawtooth.png?raw=true)
+![Sawtooth Wave Output](https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim/blob/Simulations/sawtooth.png?raw=true)
 
 
 ## 📊 Simulation & Results  
