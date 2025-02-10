@@ -19,20 +19,14 @@ Sawtooth and triangular wave generators play a crucial role in electronic system
 - A **potentiometer** allows adjustments to **shape the waveform**, making the rise or fall time dominant.  
 - The resulting sawtooth wave is widely used in CRT oscilloscopes, synthesizers, and signal modulation.  
 
-## 📐 Circuit Diagrams  
-- **Triangular Wave Generator**  
-- **Sawtooth Wave Generator**  
+## 📐 Circuit Diagrams   
 - **eSim Schematic Designs**  
-## 📐 Circuit Diagrams  
 ### Triangular Wave Generator  
-![Triangular Wave Generator](Simulations/triangular_wave.png)
+![Triangular Wave Output](Simulations/triangular.png)  
 
-### Sawtooth Wave Generator  
-![Sawtooth Wave Generator](Simulations/sawtooth.png)
+### Sawtooth Wave Generator   
+![Sawtooth Wave Output](Simulations/sawtooth.png)
 
-## 📊 Simulation Results  
-### Output Waveforms  
-![Waveform Output](images/output_waveform.png)
 
 ## 📊 Simulation & Results  
 - Input and output waveforms for **both generators**.  
