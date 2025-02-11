@@ -29,8 +29,24 @@ Sawtooth and triangular wave generators play a crucial role in electronic system
 
 
 ## 📊 Simulation & Results  
-- Input and output waveforms for **both generators**.  
+### 🔸 Triangular Wave Generator  
+#### **Input Waveform**  
+![Triangular Output](https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim/blob/Simulations/triangular_out1.png?raw=true)
+
+#### **Output Waveform**  
+![Triangular Input](https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim/blob/Simulations/triangular_out2.png?raw=true)  
+
+### 🔸 Sawtooth Wave Generator  
+#### **Input Waveform**  
+![Sawtooth Output](https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim/blob/Simulations/oSawtoothwave1.png?raw=true)
+
+#### **Output Waveform**  
+![Sawtooth Input](https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim/blob/Simulations/oSawtoothwave2.png?raw=true)  
+
 - **Python plots** and **multimeter readings** for verification.  
+## 📊 Python Plots  
+### 🔹 Triangular Wave Generator  
+![Triangular Python Plot](https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim/blob/Simulations/image_traingle.png?raw=true)  
 
 ## 🎯 Applications  
 - **Triangular Wave Generators**: PWM control, signal sweep circuits, function generators.  
